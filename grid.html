@@ -1,0 +1,79 @@
+
+ <!doctype html>
+<html>
+<head>
+  <title>WEB - CSS</title>
+  <meta charset="utf-8">
+  <style>
+    body{
+      margin:0;
+    }
+    a {
+      color:black;
+      text-decoration: none;
+    }
+    h1 {
+      font-size:45px;
+      text-align: center;
+      border-bottom:1px solid gray;
+      margin:0;
+      padding:20px;
+    }
+    ol{
+      border-right:1px solid gray;
+      width:100px;
+      margin:0;
+      padding:20px;
+      padding-left: 30px;
+    }
+    #grid{
+    	display: grid;
+    	grid-template-columns: 1fr 2fr 2fr;
+    }
+    #article{
+    	padding-left:25px;
+    }
+    .div3{ padding:20px; }
+	@media(max-width:800px){
+		#grid{
+			display: block;
+			text-align: center
+			}
+		ol{
+			border:none;
+			}
+		}
+	}
+  </style>
+</head>
+<body>
+  <h1><a href="index.html">WEB</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="1.html">HTML</a></li>
+      <li><a href="2.html">CSS</a></li>
+      <li><a href="3.html">JavaScript</a></li>
+    </ol>
+    <div id="article">
+        <h2>CSS</h2>
+        <p>
+          Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language.[1] Although most often used to set the visual style of web pages and user interfaces written in HTML and XHTML, the language can be applied to any XML document, including plain XML, SVG and XUL, and is applicable to rendering in speech, or on other media. Along with HTML and JavaScript, CSS is a cornerstone technology used by most websites to create visually engaging webpages, user interfaces for web applications, and user interfaces for many mobile applications.
+        </p>
+      </div>
+      <div class="div3">
+      	스포트라이트 - control + space
+새로운창켜기 - command+ N
+데스크탑 - command + shift + D
+독 - command + option + D
+개발자도구 - option+command+ i
+		 shift + command + c (요소선택)
+프로그램종료 - command + Q
+현재창닫기 - command + W
+현재창감추기 - command + H (+option 전부)
+이동 - command + 방향키 (shift키같이하면 중복선택)
+미리보기 -스페이스바
+북마크 - command + D
+      </div>
+  </div>
+  </body>
+  </html>
